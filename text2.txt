@@ -1,2 +1,6 @@
 haha hehe
+<<<<<<< HEAD
 oh ye haha
+=======
+ok ok
+>>>>>>> parent of 4a54b9e... add moi

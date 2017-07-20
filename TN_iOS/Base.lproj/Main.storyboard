@@ -1,14 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2Wc-uE-8EQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3mF-cp-p9w">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
+        <!--Quan Ly View-->
+        <scene sceneID="sxt-FE-VYL">
+            <objects>
+                <viewController id="qrv-0j-hmT" customClass="QuanLyView" customModule="TN_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oq0-y4-beQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="gCq-Ab-HlQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ezL-Pr-YgN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LUẬT GIAO THÔNG ĐƯỜNG BỘ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-bZ-2ur">
+                                <rect key="frame" x="20" y="77" width="280" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.12061822092521449" green="0.26537659528379615" blue="0.6828413419586522" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Luật xe máy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIC-Vz-NoP">
+                                <rect key="frame" x="27" y="288" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1206182209" green="0.26537659530000002" blue="0.68284134200000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Luật oto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7H-UR-W8m">
+                                <rect key="frame" x="182" y="288" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1206182209" green="0.26537659530000002" blue="0.68284134200000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUf-VG-K8L">
+                                <rect key="frame" x="20" y="170" width="125" height="100"/>
+                                <color key="backgroundColor" red="0.1086196113" green="0.54588877130000002" blue="0.59006410259999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="xemay"/>
+                                <connections>
+                                    <action selector="xemayClick:" destination="qrv-0j-hmT" eventType="touchUpInside" id="7Ed-Vl-rdE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSP-AI-4Uc">
+                                <rect key="frame" x="175" y="170" width="125" height="100"/>
+                                <color key="backgroundColor" red="0.1086196113" green="0.54588877130000002" blue="0.59006410259999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="car"/>
+                                <connections>
+                                    <action selector="otoClick:" destination="qrv-0j-hmT" eventType="touchUpInside" id="o23-4r-DMQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXt-iS-Glv">
+                                <rect key="frame" x="137" y="348" width="96" height="30"/>
+                                <state key="normal" title="InsertOto"/>
+                                <connections>
+                                    <action selector="insertOto:" destination="qrv-0j-hmT" eventType="touchUpInside" id="nIj-Q0-B7V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2P-xa-hCa">
+                                <rect key="frame" x="137" y="380" width="96" height="30"/>
+                                <state key="normal" title="DeleteOto"/>
+                                <connections>
+                                    <action selector="deleteOto:" destination="qrv-0j-hmT" eventType="touchUpInside" id="ZCc-8x-I5X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.63643427119999996" green="0.91706910129999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fko-tw-N9C"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Osb-hx-EaW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2378" y="287"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TN_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LawView" id="BYZ-38-t0r" customClass="ViewController" customModule="TN_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,28 +88,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Ia-rr-sr2">
-                                <rect key="frame" x="0.0" y="64" width="320" height="95"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="74"/>
                                 <subviews>
+                                    <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PWR-xl-uNe">
+                                        <rect key="frame" x="0.0" y="30" width="320" height="44"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="jww-go-dk6" id="evH-kk-fAO"/>
+                                        </connections>
+                                    </searchBar>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="XỬ PHẠT XE MÁY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5u-7r-Z8t">
-                                        <rect key="frame" x="35" y="0.0" width="250" height="21"/>
+                                        <rect key="frame" x="35" y="4" width="250" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="1" green="0.9925023449" blue="0.94544796679999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <searchBar contentMode="redraw" fixedFrame="YES" placeholder="Tìm kiếm" translatesAutoresizingMaskIntoConstraints="NO" id="rbD-tG-Z6X">
-                                        <rect key="frame" x="0.0" y="42" width="320" height="44"/>
-                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <scopeButtonTitles>
-                                            <string>Title</string>
-                                            <string>Title</string>
-                                        </scopeButtonTitles>
-                                    </searchBar>
                                 </subviews>
                                 <color key="backgroundColor" red="0.098544268960258669" green="0.51163619973517782" blue="0.53936927356020936" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="98" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ljM-Wb-4k5">
-                                <rect key="frame" x="0.0" y="159" width="320" height="409"/>
+                                <rect key="frame" x="0.0" y="135" width="320" height="433"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="myCell" rowHeight="98" id="q0a-E7-qpe" customClass="CusTableViewCell" customModule="TN_iOS" customModuleProvider="target">
@@ -49,22 +117,22 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNI-9Z-Hq6">
-                                                    <rect key="frame" x="8" y="8" width="304" height="21"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UV1-hJ-qmP">
-                                                    <rect key="frame" x="8" y="37" width="304" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UV1-hJ-qmP">
+                                                    <rect key="frame" x="8" y="30" width="304" height="37"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mức phạt:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iho-EO-htT">
-                                                    <rect key="frame" x="8" y="66" width="304" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="8" y="68" width="304" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.89185209424083767" green="0.026725805213879635" blue="0.072573064804670032" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNI-9Z-Hq6">
+                                                    <rect key="frame" x="8" y="8" width="304" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -87,31 +155,64 @@
                     <navigationItem key="navigationItem" id="90l-V9-Wqy"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="searchBar" destination="PWR-xl-uNe" id="fRX-Ql-ob0"/>
+                        <outlet property="searchDisplayController" destination="jww-go-dk6" id="8Q4-u1-NuK"/>
                         <outlet property="tableView" destination="ljM-Wb-4k5" id="rUr-wp-kh3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="jww-go-dk6">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="uqm-iK-jNH"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="FVL-FT-ebG"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="KUq-pX-16y"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="FZw-sq-d9U"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1100" y="287"/>
+            <point key="canvasLocation" x="2724" y="287"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aef-yc-gwB">
+            <objects>
+                <viewController storyboardIdentifier="abc" id="mD5-wc-1aN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Dt-k2-TN8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ikm-Xp-bBK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OIM-pa-xWI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ms-U8-iwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3084" y="287"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="NYJ-4N-SG0">
+        <scene sceneID="dVB-EU-R0a">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zM3-ME-iey" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Wc-uE-8EQ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3mF-cp-p9w" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Oid-xU-7dl">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gjh-Hl-bkh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="acH-t7-JRz"/>
+                        <segue destination="qrv-0j-hmT" kind="relationship" relationship="rootViewController" id="3Nf-yb-cCz"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Nd-2Z-5Um" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="288" y="287"/>
+            <point key="canvasLocation" x="1566" y="287"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="car" width="256" height="256"/>
+        <image name="xemay" width="512" height="477"/>
+    </resources>
 </document>

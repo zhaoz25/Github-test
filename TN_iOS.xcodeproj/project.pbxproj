@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D05F6131F1BB66500FF2677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D05F6111F1BB66500FF2677 /* Main.storyboard */; };
+		5D05F6151F1BB94500FF2677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D05F6141F1BB94500FF2677 /* Assets.xcassets */; };
+		5D05F6191F1BBDC200FF2677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05F6181F1BBDC200FF2677 /* ViewController.swift */; };
+		5D05F61B1F1BC02A00FF2677 /* QuanLyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05F61A1F1BC02A00FF2677 /* QuanLyView.swift */; };
+		5D61F3911F19025B00E4CA3F /* oto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D61F38F1F19025B00E4CA3F /* oto.txt */; };
+		5D61F3921F19025B00E4CA3F /* xemay.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D61F3901F19025B00E4CA3F /* xemay.txt */; };
+		5D61F3941F19036000E4CA3F /* TransportationLaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61F3931F19036000E4CA3F /* TransportationLaw.swift */; };
+		5D61F3961F1906CC00E4CA3F /* SqliteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61F3951F1906CC00E4CA3F /* SqliteHelper.swift */; };
+		5D61F3981F19077300E4CA3F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D61F3971F19077300E4CA3F /* libsqlite3.0.tbd */; };
+		5D61F4141F19170E00E4CA3F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61F40A1F19170E00E4CA3F /* FMDatabase.m */; };
+		5D61F4151F19170E00E4CA3F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61F40C1F19170E00E4CA3F /* FMDatabaseAdditions.m */; };
+		5D61F4161F19170E00E4CA3F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61F40E1F19170E00E4CA3F /* FMDatabasePool.m */; };
+		5D61F4171F19170E00E4CA3F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61F4101F19170E00E4CA3F /* FMDatabaseQueue.m */; };
+		5D61F4181F19170E00E4CA3F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61F4131F19170E00E4CA3F /* FMResultSet.m */; };
 		5DF9876A1F175A8500F35E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF987691F175A8500F35E06 /* AppDelegate.swift */; };
-		5DF9876C1F175A8500F35E06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF9876B1F175A8500F35E06 /* ViewController.swift */; };
-		5DF9876F1F175A8500F35E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF9876D1F175A8500F35E06 /* Main.storyboard */; };
-		5DF987711F175A8500F35E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF987701F175A8500F35E06 /* Assets.xcassets */; };
 		5DF987741F175A8500F35E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF987721F175A8500F35E06 /* LaunchScreen.storyboard */; };
 		5DF9877F1F175A8500F35E06 /* TN_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF9877E1F175A8500F35E06 /* TN_iOSTests.swift */; };
 		5DF9878A1F175A8500F35E06 /* TN_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF987891F175A8500F35E06 /* TN_iOSUITests.swift */; };
@@ -35,11 +46,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D05F6121F1BB66500FF2677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D05F6141F1BB94500FF2677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		5D05F6181F1BBDC200FF2677 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D05F61A1F1BC02A00FF2677 /* QuanLyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuanLyView.swift; sourceTree = "<group>"; };
+		5D61F38F1F19025B00E4CA3F /* oto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = oto.txt; path = "Github-test/oto.txt"; sourceTree = "<group>"; };
+		5D61F3901F19025B00E4CA3F /* xemay.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = xemay.txt; path = "Github-test/xemay.txt"; sourceTree = "<group>"; };
+		5D61F3931F19036000E4CA3F /* TransportationLaw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationLaw.swift; sourceTree = "<group>"; };
+		5D61F3951F1906CC00E4CA3F /* SqliteHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqliteHelper.swift; sourceTree = "<group>"; };
+		5D61F3971F19077300E4CA3F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5D61F3AA1F19082B00E4CA3F /* TN_iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TN_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D61F4091F19170E00E4CA3F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../../../../Downloads/fmdb/src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		5D61F40A1F19170E00E4CA3F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../../../../Downloads/fmdb/src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		5D61F40B1F19170E00E4CA3F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = ../../../../Downloads/fmdb/src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5D61F40C1F19170E00E4CA3F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../../../../Downloads/fmdb/src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5D61F40D1F19170E00E4CA3F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = ../../../../Downloads/fmdb/src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		5D61F40E1F19170E00E4CA3F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../../../../Downloads/fmdb/src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		5D61F40F1F19170E00E4CA3F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = ../../../../Downloads/fmdb/src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5D61F4101F19170E00E4CA3F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../../../../Downloads/fmdb/src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5D61F4111F19170E00E4CA3F /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = ../../../../Downloads/fmdb/src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		5D61F4121F19170E00E4CA3F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = ../../../../Downloads/fmdb/src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		5D61F4131F19170E00E4CA3F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../../../../Downloads/fmdb/src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		5DF987661F175A8500F35E06 /* TN_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TN_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF987691F175A8500F35E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DF9876B1F175A8500F35E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5DF9876E1F175A8500F35E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5DF987701F175A8500F35E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DF987731F175A8500F35E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DF987751F175A8500F35E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DF9877A1F175A8500F35E06 /* TN_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TN_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D61F3981F19077300E4CA3F /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +106,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D61F3991F1907CE00E4CA3F /* fmdp */ = {
+			isa = PBXGroup;
+			children = (
+				5D61F4091F19170E00E4CA3F /* FMDatabase.h */,
+				5D61F40A1F19170E00E4CA3F /* FMDatabase.m */,
+				5D61F40B1F19170E00E4CA3F /* FMDatabaseAdditions.h */,
+				5D61F40C1F19170E00E4CA3F /* FMDatabaseAdditions.m */,
+				5D61F40D1F19170E00E4CA3F /* FMDatabasePool.h */,
+				5D61F40E1F19170E00E4CA3F /* FMDatabasePool.m */,
+				5D61F40F1F19170E00E4CA3F /* FMDatabaseQueue.h */,
+				5D61F4101F19170E00E4CA3F /* FMDatabaseQueue.m */,
+				5D61F4111F19170E00E4CA3F /* FMDB.h */,
+				5D61F4121F19170E00E4CA3F /* FMResultSet.h */,
+				5D61F4131F19170E00E4CA3F /* FMResultSet.m */,
+				5D61F3AA1F19082B00E4CA3F /* TN_iOS-Bridging-Header.h */,
+			);
+			name = fmdp;
+			sourceTree = "<group>";
+		};
 		5DF9875D1F175A8500F35E06 = {
 			isa = PBXGroup;
 			children = (
+				5D61F3971F19077300E4CA3F /* libsqlite3.0.tbd */,
 				5DF987681F175A8500F35E06 /* TN_iOS */,
 				5DF9877D1F175A8500F35E06 /* TN_iOSTests */,
 				5DF987881F175A8500F35E06 /* TN_iOSUITests */,
@@ -99,13 +149,19 @@
 		5DF987681F175A8500F35E06 /* TN_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				5D61F3991F1907CE00E4CA3F /* fmdp */,
+				5D61F38F1F19025B00E4CA3F /* oto.txt */,
+				5D61F3901F19025B00E4CA3F /* xemay.txt */,
+				5D05F6141F1BB94500FF2677 /* Assets.xcassets */,
+				5D05F6111F1BB66500FF2677 /* Main.storyboard */,
 				5DF987691F175A8500F35E06 /* AppDelegate.swift */,
-				5DF9876B1F175A8500F35E06 /* ViewController.swift */,
-				5DF9876D1F175A8500F35E06 /* Main.storyboard */,
 				5DF987971F176C6800F35E06 /* CusTableViewCell.swift */,
-				5DF987701F175A8500F35E06 /* Assets.xcassets */,
 				5DF987721F175A8500F35E06 /* LaunchScreen.storyboard */,
 				5DF987751F175A8500F35E06 /* Info.plist */,
+				5D61F3931F19036000E4CA3F /* TransportationLaw.swift */,
+				5D61F3951F1906CC00E4CA3F /* SqliteHelper.swift */,
+				5D05F6181F1BBDC200FF2677 /* ViewController.swift */,
+				5D05F61A1F1BC02A00FF2677 /* QuanLyView.swift */,
 			);
 			path = TN_iOS;
 			sourceTree = "<group>";
@@ -233,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF987741F175A8500F35E06 /* LaunchScreen.storyboard in Resources */,
-				5DF987711F175A8500F35E06 /* Assets.xcassets in Resources */,
-				5DF9876F1F175A8500F35E06 /* Main.storyboard in Resources */,
+				5D05F6131F1BB66500FF2677 /* Main.storyboard in Resources */,
+				5D61F3921F19025B00E4CA3F /* xemay.txt in Resources */,
+				5D61F3911F19025B00E4CA3F /* oto.txt in Resources */,
+				5D05F6151F1BB94500FF2677 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +317,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DF9876C1F175A8500F35E06 /* ViewController.swift in Sources */,
+				5D05F6191F1BBDC200FF2677 /* ViewController.swift in Sources */,
 				5DF987981F176C6800F35E06 /* CusTableViewCell.swift in Sources */,
+				5D61F3961F1906CC00E4CA3F /* SqliteHelper.swift in Sources */,
+				5D61F4141F19170E00E4CA3F /* FMDatabase.m in Sources */,
+				5D61F4181F19170E00E4CA3F /* FMResultSet.m in Sources */,
+				5D61F3941F19036000E4CA3F /* TransportationLaw.swift in Sources */,
+				5D61F4161F19170E00E4CA3F /* FMDatabasePool.m in Sources */,
+				5D61F4151F19170E00E4CA3F /* FMDatabaseAdditions.m in Sources */,
 				5DF9876A1F175A8500F35E06 /* AppDelegate.swift in Sources */,
+				5D05F61B1F1BC02A00FF2677 /* QuanLyView.swift in Sources */,
+				5D61F4171F19170E00E4CA3F /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +363,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5DF9876D1F175A8500F35E06 /* Main.storyboard */ = {
+		5D05F6111F1BB66500FF2677 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DF9876E1F175A8500F35E06 /* Base */,
+				5D05F6121F1BB66500FF2677 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

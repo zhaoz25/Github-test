@@ -1,4 +1,9 @@
 //
-//  Use this file to import your target's public headers that you would like to expose to Swift.
+//  TN_iOS-Bridging-Header.h
+//  TN_iOS
+//
+//  Created by Hoang Phuc on 7/14/17.
+//  Copyright © 2017 Hoang Phuc. All rights reserved.
 //
 
+#import "FMDB.h"

@@ -1,0 +1,20 @@
+﻿Các xe chỉ được đi thẳng
+Các xe chỉ được rẻ phải
+Các xe chỉ được rẻ trái
+Các xe chỉ được rẻ phải
+Các xe chỉ được rẻ trái
+Các xe chỉ được đi thẳng và rẻ phải
+Các xe chỉ được đi thẳng và rẻ trái
+Các xe được rẻ trái và phải
+Nơi giao nhau chạy theo vòng xuyến
+Đường dành cho xe thô sơ
+Đường dành cho người đi bộ
+Tốc độ tối thiểu cho phép
+Hạn chế tốc độ tối thiểu
+Đi thẳng hoặc rẻ trái trên cầu vượt
+Đi thẳng hoặc rẻ phải trên cầu vượt
+Ắn còi
+Hướng đường ưu tien
+Làn đường
+Hướng tác dụng của biển
+
